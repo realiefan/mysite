@@ -10,6 +10,7 @@ import {
 } from "@heroicons/react/20/solid";
 
 
+
 function App() {
   const education = [
     {
@@ -48,10 +49,10 @@ function App() {
     {
       title: "Live Broadcasting Optimization",
       role: "Web Architect, Developer, Deployment Specialist",
-  
+
       description:
         "Redesigned, developed, and deployed a cost-efficient live broadcasting web architecture on YouTube, replacing Microsoft servers with AntMedia server. Achieved an 85-95% cost reduction, optimized resource utilization, and introduced a centralized dashboard for streamlined broadcast management.",
-      link: "https://example.com/live-broadcasting",
+      link: "https://iefan.medium.com/how-to-use-ant-media-server-for-24-7-youtube-live-streaming-0c71af5863b7",
     },
     {
       title: "Lightning Paywall Content Monetization",
@@ -59,7 +60,7 @@ function App() {
 
       description:
         "Developed a versatile content monetization platform with Lightning paywall on Amazon S3. Implemented Lightning Network transactions, integrated VPCs, and encryption for security. Established auto-scaling and disaster management for resource optimization.",
-      link: "https://example.com/live-broadcasting",
+      link: "https://iefan.medium.com/unveiling-the-future-of-content-monetization-decentralized-lightning-paywall-2e97bed5a8aa",
     },
     {
       title: "Cloud Migration: Data center  to cloud (AWS)",
@@ -69,7 +70,7 @@ function App() {
         "Identified bottlenecks, reduced costs by 30%, boosted performance by 50%, and ensured seamless data transfer.",
       responsibilities:
         "Designed secure AWS VPC, collaborated cross-functionally, and provided ongoing support.",
-      link: "https://example.com/cloud-migration",
+      link: "https://iefan.medium.com/cloud-infrastructure-automation-project-delta-77c670a57566",
     },
     {
       title: "Cloud Infrastructure Automation: Project Delta",
@@ -79,7 +80,7 @@ function App() {
         "Implemented IaC, orchestrated CI/CD pipelines, reduced deployment time by 40%, and improved reliability.",
       responsibilities:
         "Collaborated with development teams, integrated monitoring, and conducted regular script reviews.",
-      link: "https://example.com/infrastructure-automation",
+      link: "https://iefan.medium.com/cloud-infrastructure-automation-project-delta-77c670a57566",
     },
   ];
 
@@ -338,7 +339,7 @@ function App() {
             <p className="text-gray-400 mb-4">
               LinkedIn: linkedin.com/in/realiefan
             </p>
-            <p className="text-gray-400 mb-4">Substack: iefan.substack.com</p>
+            <p className="text-gray-400 mb-4">Medium: iefan.medium.com</p>
             {/* Email button */}
             <a
               href="mailto:realiefan@outlook.com"
@@ -350,6 +351,10 @@ function App() {
             </a>
           </div>
         </dialog>
+
+        <div>
+     
+        </div>
 
         {/* Add more sections as needed, e.g., Education, Contact, etc. */}
 
