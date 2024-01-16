@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.highlight {
+  color: #111113;
+
+}
+
+mark {
+  background-color: #111113;
+  border-radius: 2px;
+  padding: 0px 2px 0px 2px;
+
+}
+
+.shdw {
+      box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+}
+
+.btn {
+      height: auto !important;
+        min-height: auto !important;
+
+        color: aliceblue;
+        opacity: 1;
+        margin-top: 12px;
+        padding: 6px 12px;
+        font-size: large;
+}
