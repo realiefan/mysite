@@ -18,28 +18,28 @@ function App() {
       school: "University of Delhi, MLNC",
       year: "2020 - 2023",
       description:
-        "Studied computer science with a focus on software development and algorithms.",
+        "Developed a holistic understanding of how these disciplines complement each other.",
     },
     {
       degree: "Certified as Practitioner, pursuing Associate",
       school: "Amazon Web Services",
       year: "2021 - 2023",
       description:
-        "Completed an advanced program in computer science with a specialization in artificial intelligence.",
+        "Specialized in Cloud Computing, aligning with the AWS Certification, to enhance expertise in the field.",
     },
     {
       degree: "Diploma in Cloud Computing | Linux",
       school: "N.I.I.T Technology",
       year: "2022 - 2023",
       description:
-        "Studied computer science with a focus on software development and algorithms.",
+        "Acquired comprehensive skills in Computer Science, Cloud Computing, and Linux Administration through a focused certification program.",
     },
     {
-      degree: "Degree in MCA (pursuing Remotely)",
+      degree: "Degree in MCA (Ongoing Remotely)",
       school: "Amity University",
       year: "2023 - 2025",
       description:
-        "Completed an advanced program in computer science with a specialization in artificial intelligence.",
+        "Currently immersed in advanced studies with a primary focus on mastering data structures and algorithms.",
     },
 
     // Add more education entries as needed
