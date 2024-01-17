@@ -333,13 +333,42 @@ function App() {
             </form>
             {/* Contact information */}
             <h3 className="font-bold text-2xl mb-4 text-gray-300">Contact</h3>
+
             {/* Replace the following placeholders with your actual contact details */}
-            <p className="text-gray-400 mb-2">Email: realiefan@outlook.com</p>
-            <p className="text-gray-400 mb-2">Phone: 8660700104</p>
-            <p className="text-gray-400 mb-4">
-              LinkedIn: linkedin.com/in/realiefan
+            <p className="text-gray-400 mb-2">
+              Email:{" "}
+              <a href="mailto:realiefan@outlook.com" className="text-[#667eea]">
+                realiefan@outlook.com
+              </a>
             </p>
-            <p className="text-gray-400 mb-4">Medium: iefan.medium.com</p>
+            <p className="text-gray-400 mb-2">
+              Phone:{" "}
+              <a href="tel:8660700104" className="text-[#667eea]">
+                +918660700104
+              </a>
+            </p>
+            <p className="text-gray-400 mb-2">
+              LinkedIn:{" "}
+              <a
+                href="https://linkedin.com/in/realiefan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#667eea] underline"
+              >
+                linkedin.com/in/realiefan
+              </a>
+            </p>
+            <p className="text-gray-400 mb-2">
+              Medium:{" "}
+              <a
+                href="https://iefan.medium.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#667eea] underline"
+              >
+                iefan.medium.com
+              </a>
+            </p>
             {/* Email button */}
             <a
               href="mailto:realiefan@outlook.com"
@@ -352,9 +381,7 @@ function App() {
           </div>
         </dialog>
 
-        <div>
-     
-        </div>
+        <div></div>
 
         {/* Add more sections as needed, e.g., Education, Contact, etc. */}
 
